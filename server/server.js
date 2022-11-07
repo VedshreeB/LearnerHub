@@ -38,10 +38,10 @@ require('./config/passport')(passport)
 require('./config/payment')
 */
 
-
+/*
 //ROUTES
 app.use('/api/user', userRoutes)
-
+*/
 
 //Catching 404 Error
 app.use((req, res, next) => {
