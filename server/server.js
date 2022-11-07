@@ -33,9 +33,10 @@ app.use(passport.initialize());
 // Passport Config.
 require('./config/passport')(passport)
 
+/*
 //Razorpay
 require('./config/payment')
-
+*/
 
 
 //ROUTES
